@@ -10,7 +10,6 @@ Crie um diretório vazio onde você deseja armazenar seu projeto Django.
 Execute o seguinte comando para criar um novo projeto Django:
 
 ```
-
 django-admin startproject setup .
 ```
 
@@ -62,7 +61,6 @@ python manage.py makemigrations
 ### Execute o seguinte comando para aplicar as migrations geradas ao seu banco de dados:
 
 ```
-
 python manage.py migrate
 ```
 
@@ -72,7 +70,6 @@ python manage.py migrate
 
 ```
 python manage.py startapp myapp
-
 ```
 
 ## Substitua myapp pelo nome desejado para o seu aplicativo.
@@ -83,14 +80,12 @@ Execute o seguinte comando para executar os testes do seu projeto:
 
 ```
 python manage.py test
-
 ```
 
 # Observações: Para rodar no Docker:
 
 ```
 docker-compose build 
-
 ```
 
 ```
